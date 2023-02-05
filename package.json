@@ -21,8 +21,7 @@
     "name": "msgpack",
     "description": "Request and Response serialization for MessagePack format.",
     "images": {
-      "icon": "./assets/icon.svg",
-      "cover": "./assets/cover.svg"
+      "icon": "./assets/icon.svg"
     },
     "publisher": {
       "name": "Dinko Pehar"
