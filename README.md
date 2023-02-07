@@ -11,13 +11,14 @@ Automatically convert JSON Request to MessagePack format **and** MessagePack Res
 
 ## Usage
 
+To toggle plugin **ON** or **OFF**, simply <kbd>Right-Click</kbd> on any request and click `Toggle MessagePack`.
 
-When plugin is toggled **"ON"**:
+When plugin is **"ON"**:
 
 1. Requests sent in JSON format are automatically converted to MessagePack format.
 2. Responses received in MessagePack format are automatically converted into JSON format.
 
-When plugin is toggled **"OFF"**, it acts as if it's disabled.
+When plugin is **"OFF"**, response and and request formats are preserved.
 
 Below is example usage on how to toggle plugin and use it:
 
