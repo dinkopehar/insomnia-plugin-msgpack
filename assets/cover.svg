@@ -1,6 +1,20 @@
 <svg width="952px" height="358px" viewBox="0 0 952 358" version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style xmlns="http://www.w3.org/2000/svg">
+		#msgpack { 
+    	animation-name: floating;
+    	animation-duration: 3s;
+    	animation-iteration-count: infinite;
+   	 	animation-timing-function: ease-in-out;
+		}
+ 
+		@keyframes floating {
+    	0% { transform: translate(0,  0px); }
+    	50% { transform: translate(0, -5px); }
+    	100% { transform: translate(0, 0px); }
+		}
+    </style>
     <defs>
         <linearGradient x1="49.9997366%" y1="100%" x2="49.9997366%" y2="0%" id="linearGradient-ffjchnle2t-1">
             <stop stop-color="#7400E1" offset="0%"></stop>
