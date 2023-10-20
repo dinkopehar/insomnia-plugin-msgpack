@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-msgpack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Request and Response serialization for MessagePack format.",
   "private": false,
   "license": "MIT",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dinko-pehar/insomnia-plugin-msgpack.git"
+    "url": "git+https://github.com/dinkopehar/insomnia-plugin-msgpack.git"
   },
   "bugs": {
-    "url": "https://github.com/dinko-pehar/insomnia-plugin-msgpack/issues"
+    "url": "https://github.com/dinkopehar/insomnia-plugin-msgpack/issues"
   },
-  "homepage": "https://github.com/dinko-pehar/insomnia-plugin-msgpack",
+  "homepage": "https://github.com/dinkopehar/insomnia-plugin-msgpack",
   "insomnia": {
     "name": "msgpack",
     "description": "Request and Response serialization for MessagePack format.",
