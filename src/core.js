@@ -13,6 +13,8 @@ async function encodeRequest(context) {
     if (!(await context.store.hasItem(extensionStoreItemName))) return;
 
     const body = context.request.getBody();
+    // If body is empty return.
+    if (!body.text) return;
     const encoded = encode(JSON.parse(body.text));
 
     writeFileSync(msgpackOutputFile, encoded, "binary", (err) => {
