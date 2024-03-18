@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-msgpack",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Request and Response serialization for MessagePack format.",
   "private": false,
   "license": "MIT",
